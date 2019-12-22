@@ -1,5 +1,3 @@
-console.log("Deep Shah");
-
 const weatherForm = document.querySelector("form");
 const address = document.querySelector("input");
 const messageOne = document.querySelector("#message-1");
