@@ -12,7 +12,7 @@ weatherForm.addEventListener("submit", (e) => {
     if(!address){
         return messageOne.textContent = "Type address to see result.";
     }
-    fetch(`http://localhost:3000/weather?address=${serach}`).then((response) =>{
+    fetch(`/weather?address=${serach}`).then((response) =>{
         response.json().then((data) => {
         if(data.error){
             return messageOne.textContent = data.error;
