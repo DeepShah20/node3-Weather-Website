@@ -47,7 +47,7 @@ app.get("/weather",(req,res) => {
     const address = req.query.address;
     if(!address){
         return res.send({
-            error : "You have to provide query string address"
+            error : "You have to provide query string as address"
         })
     }
 
