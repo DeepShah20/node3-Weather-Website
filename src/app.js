@@ -102,5 +102,5 @@ app.get("*",(req,res) => {
 
 
 app.listen(port,() => {
-    console.log("Your application started..!!");
+    console.log("Your application started..!!" + port);
 });
